@@ -27,9 +27,8 @@ object Form1: TForm1
   object LbPlacarX: TLabel
     Left = 112
     Top = 392
-    Width = 71
+    Width = 5
     Height = 25
-    Caption = 'Placar X'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -19
@@ -40,9 +39,8 @@ object Form1: TForm1
   object LbPlacarO: TLabel
     Left = 112
     Top = 432
-    Width = 73
+    Width = 5
     Height = 25
-    Caption = 'Placar O'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -19
@@ -72,6 +70,32 @@ object Form1: TForm1
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -29
+    Font.Name = 'Segoe UI'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 392
+    Width = 73
+    Height = 25
+    Caption = 'Placa X :'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Segoe UI'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 8
+    Top = 432
+    Width = 83
+    Height = 25
+    Caption = 'Placar O :'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
     Font.Name = 'Segoe UI'
     Font.Style = [fsBold]
     ParentFont = False

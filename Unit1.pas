@@ -24,6 +24,8 @@ type
     LbJogadorDaVezResultado: TLabel;
     Button1: TButton;
     Label3: TLabel;
+    Label2: TLabel;
+    Label4: TLabel;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);
