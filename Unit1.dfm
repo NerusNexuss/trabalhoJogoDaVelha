@@ -24,7 +24,7 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
   end
-  object Label2: TLabel
+  object LbPlacarX: TLabel
     Left = 112
     Top = 392
     Width = 71
@@ -149,7 +149,7 @@ object Form1: TForm1
     OnClick = Button9Click
   end
   object BtnReiniciarJogo: TButton
-    Left = 104
+    Left = 112
     Top = 520
     Width = 129
     Height = 25
@@ -161,6 +161,7 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 9
+    OnClick = BtnReiniciarJogoClick
   end
   object BtnSair: TButton
     Left = 306
@@ -175,5 +176,6 @@ object Form1: TForm1
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 10
+    OnClick = BtnSairClick
   end
 end
